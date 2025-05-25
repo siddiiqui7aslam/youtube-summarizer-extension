@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summarizer Setup</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Choose AI Tool</h3>
+  <label for="platform">AI Tool:</label>
+  <select id="platform">
+    <option value="chatgpt">ChatGPT</option>
+    <option value="gemini">Gemini</option>
+    <option value="claude">Claude</option>
+  </select>
+  <br><br>
+  <textarea id="prompt" rows="4" cols="30" placeholder="Enter custom prompt..."></textarea>
+  <br><br>
+  <button id="save">Save</button>
+  <script src="popup.js"></script>
+</body>
+</html>
